@@ -25,8 +25,8 @@ with open(file_path, 'rb') as f:
     img_file = base64.encodebytes(f.read())
 
 config = {
-    'api_key': 'PUQy6dGCzDwmqEdT1g6zXZwATyzNqYlO',
-    'api_secret': 'QdODMy8Lq087Xv-85vzDLtOJmltTdMQh',
+    'api_key': '***',
+    'api_secret': '***',
     'image_base64': img_file,
     'return_landmark': 1,
     'return_attributes': 'gender,age,beauty'

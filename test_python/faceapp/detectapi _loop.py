@@ -44,8 +44,8 @@ for input_file in file_path:
 
     # config
     config = {
-        'api_key': 'PUQy6dGCzDwmqEdT1g6zXZwATyzNqYlO',
-        'api_secret': 'QdODMy8Lq087Xv-85vzDLtOJmltTdMQh',
+        'api_key': '***',
+        'api_secret': '***',
         'image_base64': img_file,
         'return_landmark': 1,
         'return_attributes': 'gender,age,beauty'
