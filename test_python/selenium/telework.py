@@ -9,14 +9,14 @@ from selenium.webdriver.common.action_chains import ActionChains
 MBC_URL = 'https://wa.motionboard.jp/motionboard/main'
 
 # 変数
-tenant = 'wa160twb'
-id = 'nakamura.yo'
-password = 'nakamura.yo+00000'
+tenant = 'tenant'
+id = 'id'
+password = 'pw'
 
 
 # webdriverの指定
 driver = webdriver.Chrome(
-    r'C:\Users\nakamura.yo\chromedriver_win32\chromedriver.exe')
+    r'path')
 
 # driver.get('https://www.google.com/')
 driver.get(MBC_URL)
